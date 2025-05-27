@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="68dbfc20c3392210410af54d0501316b" extends="sys_user" label="Professores" max_length="40" name="x_1770247_unit_professores" type="collection">
+        <element label="Data de demissão" max_length="40" name="data_de_demissao" type="glide_date"/>
+        <element label="Data de nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
+        <element label="Data de contratação" max_length="40" name="data_de_contratacao" type="glide_date"/>
+        <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
+        <element label="Número de Matrícula" max_length="40" name="numero_de_matricula" type="string"/>
+        <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
+    </element>
+</database>

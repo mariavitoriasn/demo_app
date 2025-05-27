@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1770247_unit.professores_user" name="x_1770247_unit.professores_user">3c5cb060c3392210410af54d0501317c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 14:20:24</sys_created_on>
+        <sys_id>f85cb060c3392210410af54d0501317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3c5cb060c3392210410af54d0501317c</sys_name>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f85cb060c3392210410af54d0501317e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 14:20:24</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

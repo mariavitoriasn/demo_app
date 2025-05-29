@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter table="x_1770247_unit_professores">ativo=true^EQ<item endquery="false" field="ativo" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 20:17:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3bae969c3b12210410af54d050131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ativo</sys_name>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name>sys_filter_d3bae969c3b12210410af54d050131b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 20:17:06</sys_updated_on>
+        <table>x_1770247_unit_professores</table>
+        <title>Ativo</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="DELETE" query="documentkey=d3bae969c3b12210410af54d050131b0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">cb60ecacc3752210410af54d050131d6</application>
+        <file_path/>
+        <instance_id>2c5ecd491b92319c7d9d2f8dee4bcb7c</instance_id>
+        <instance_name>dev201231</instance_name>
+        <name>sys_filter_d3bae969c3b12210410af54d050131b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter"><sys_filter action="INSERT_OR_UPDATE"><filter table="x_1770247_unit_professores">ativo=true^EQ<item endquery="false" field="ativo" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><group/><last_used/><mobile>false</mobile><roles/><sys_class_name>sys_filter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 20:17:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d3bae969c3b12210410af54d050131b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ativo</sys_name><sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package><sys_policy/><sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope><sys_update_name>sys_filter_d3bae969c3b12210410af54d050131b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 20:17:06</sys_updated_on><table>x_1770247_unit_professores</table><title>Ativo</title><user/></sys_filter><sys_translated_text action="delete_multiple" query="documentkey=d3bae969c3b12210410af54d050131b0"/></record_update>]]></payload>
+        <payload_hash>-27031821</payload_hash>
+        <record_name>Ativo</record_name>
+        <reverted_from/>
+        <source>b076b309c3312210410af54d05013169</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 20:17:06</sys_created_on>
+        <sys_id>1bba2de9c3b12210410af54d05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197188a9be80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 20:17:06</sys_updated_on>
+        <type>Filter</type>
+        <update_guid>dbba2de9d5b122106b35d65134115a71</update_guid>
+        <update_guid_history>dbba2de9d5b122106b35d65134115a71:-27031821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 21:35:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>41e802dc22074bf0845b31fde4d51100</sys_id>
+        <sys_metadata>d3bae969c3b12210410af54d050131b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ativo</sys_name>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_parent display_value="Professores">68dbfc20c3392210410af54d0501316b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_scope_delete display_value="">96246d1a94c340f4aec3296503595244</sys_scope_delete>
+        <sys_update_name>sys_filter_d3bae969c3b12210410af54d050131b0</sys_update_name>
+        <sys_update_version display_value="sys_filter_d3bae969c3b12210410af54d050131b0">1bba2de9c3b12210410af54d05013172</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 21:35:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

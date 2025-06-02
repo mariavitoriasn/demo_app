@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a0f7153ec3f56210410af54d0501312b" extends="task" label="Solicitação de Serviços Acadêmicos" max_length="40" name="x_1770247_unit_solicitacao_de_servicos_academicos" type="collection">
+        <element label="Nome do aluno" max_length="32" name="nome_do_aluno" reference="sys_user" reference_qual="roles=x_1770247_unit.UNIT_aluno^EQ" reference_qual_condition="roles=x_1770247_unit.UNIT_aluno^EQ" type="reference"/>
+        <element label="Máterias" max_length="32" name="materias" reference="x_1770247_unit_cadeiras" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Solicitação de Serviços Acadêmicos">2e8335bac3b96210410af54d0501317d</sc_cat_item>
+        <sc_catalog display_value="Servicos">2e6242bec3f96210410af54d05013128</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 19:13:34</sys_created_on>
+        <sys_id>f38206bec3f96210410af54d05013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicos.Solicitação de Serviços Acadêmicos</sys_name>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f38206bec3f96210410af54d05013135</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 19:13:34</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

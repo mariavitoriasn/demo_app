@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="UNIT">d9bd6820c3f52210410af54d0501316b</application>
+        <filter/>
+        <name>Solicitação de Serviços Acadêmicos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1770247_unit.solicita_o_de_servi_os_acad_micos_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 16:53:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d62adb6c3796210410af54d05013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de Serviços Acadêmicos</sys_name>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name>sys_ui_module_1d62adb6c3796210410af54d05013105</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 16:53:04</sys_updated_on>
+        <table>x_1770247_unit_solicitacao_de_servicos_academicos</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

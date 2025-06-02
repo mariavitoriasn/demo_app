@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>automao_matrcula</internal_name>
+        <label_cache>[{"name":"8f5d41d8-d8eb-47b6-8682-b77d2e0f88e7.table_name","label":"3 - Update Record➛Solicitação de Serviços Acadêmicos Table","reference":"x_1770247_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos Table","type":"table_name","base_type":"table_name","usedInstances":{"522f4cd0-c5d3-49cb-b457-c9f2a69b4397":["table_name"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"268c6034-710f-4495-ba6a-c173d6839ca4.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"57e72a09-4b99-4452-8eb5-35a2d9303a6a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record","reference":"x_1770247_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"dfc6441f-ce7a-42e8-b7f9-0adca9a00d7d":["record"],"8f5d41d8-d8eb-47b6-8682-b77d2e0f88e7":["record"],"262f9742-e576-43a9-999b-390e815f7911":["record"],"ccc4a6bc-829e-4d00-a488-33333a0e42cb":["record"],"fa9c709e-30c8-417f-bc11-33f628f7c87a":["record"],"88589ea6-a368-461f-94d5-23edcbd61f18":["record"],"81101186-a7b0-4f38-9449-f15f38cd9415":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Table","reference":"x_1770247_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos","type":"table_name","base_type":"table_name","usedInstances":{"dfc6441f-ce7a-42e8-b7f9-0adca9a00d7d":["table_name"],"522f4cd0-c5d3-49cb-b457-c9f2a69b4397":["table_name"]},"attributes":{"test_input_hidden":"true"}},{"name":"dfc6441f-ce7a-42e8-b7f9-0adca9a00d7d.record","label":"1 - Update Record➛Solicitação de Serviços Acadêmicos Record","reference":"x_1770247_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos Record","type":"reference","base_type":"reference","usedInstances":{"268c6034-710f-4495-ba6a-c173d6839ca4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.f0e2a236c3bd6210410af54d050131b4}}","label":"Professores UNIT","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"268c6034-710f-4495-ba6a-c173d6839ca4":["approval_conditions"]}},{"name":"8f5d41d8-d8eb-47b6-8682-b77d2e0f88e7.record","label":"3 - Update Record➛Solicitação de Serviços Acadêmicos Record","reference":"x_1770247_unit_solicitacao_de_servicos_academicos","reference_display":"Solicitação de Serviços Acadêmicos Record","type":"reference","base_type":"reference","usedInstances":{"4bb5566c-e118-4865-9565-1758e3703364":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.approval","label":"Trigger - Record Created➛Solicitação de Serviços Acadêmicos Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1770247_unit_solicitacao_de_servicos_academicos","column_name":"approval","choices":[{"used":false,"label":"Not Yet Requested","image":"","reference":false,"missing":false,"rawLabel":"Not Yet Requested","selected":false,"value":"not requested","parameters":{"name":"task"}},{"used":false,"label":"Requested","image":"","reference":false,"missing":false,"rawLabel":"Requested","selected":false,"value":"requested","parameters":{"name":"task"}},{"used":false,"label":"Approved","image":"","reference":false,"missing":false,"rawLabel":"Approved","selected":false,"value":"approved","parameters":{"name":"task"}},{"used":false,"label":"Rejected","image":"","reference":false,"missing":false,"rawLabel":"Rejected","selected":false,"value":"rejected","parameters":{"name":"task"}}],"usedInstances":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Automação matrícula</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 20:40:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f6869efec33d6210410af54d05013183</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Automação matrícula</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name>sys_hub_flow_f6869efec33d6210410af54d05013183</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6869efec33d6210410af54d05013183"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f6869efec33d6210410af54d05013183"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f6869efec33d6210410af54d05013183^sys_idNOT INe3a23af6c3fd6210410af54d050131b2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e3a23af6c3fd6210410af54d050131b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3a23af6c3fd6210410af54d050131b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e3a23af6c3fd6210410af54d050131b2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e3a23af6c3fd6210410af54d050131b2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>6fa23af6c3fd6210410af54d050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f6869efec33d6210410af54d05013183"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f6869efec33d6210410af54d05013183^sys_idNOT IN3e86dab6c37d6210410af54d05013127"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f6869efec33d6210410af54d05013183</id>
+        <name>Automação matrícula</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 20:40:53</sys_created_on>
+        <sys_id>3e86dab6c37d6210410af54d05013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 20:40:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3e86dab6c37d6210410af54d05013127"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f6869efec33d6210410af54d05013183^sys_idNOT IN23a23af6c3fd6210410af54d050131a9,a7a23af6c3fd6210410af54d050131ad"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação matrícula">f6869efec33d6210410af54d05013183</model>
+        <model_id>f6869efec33d6210410af54d05013183</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:49</sys_created_on>
+        <sys_id>23a23af6c3fd6210410af54d050131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=23a23af6c3fd6210410af54d050131a9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Automação matrícula">f6869efec33d6210410af54d05013183</model>
+        <model_id>f6869efec33d6210410af54d05013183</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:49</sys_created_on>
+        <sys_id>a7a23af6c3fd6210410af54d050131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7a23af6c3fd6210410af54d050131ad"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f6869efec33d6210410af54d05013183"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6869efec33d6210410af54d05013183"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f6869efec33d6210410af54d05013183^sys_idNOT IN77a23af6c3fd6210410af54d050131ed,9156f63ec3fd6210410af54d0501318a,aba23af6c3fd6210410af54d050131e2,afa23af6c3fd6210410af54d050131c2,d156f63ec3fd6210410af54d05013179,e7a23af6c3fd6210410af54d050131b9,efa23af6c3fd6210410af54d050131d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>dce720a4-3a04-4905-8de6-24505acba906</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>77a23af6c3fd6210410af54d050131ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>fa9c709e-30c8-417f-bc11-33f628f7c87a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=77a23af6c3fd6210410af54d050131ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>77a23af6c3fd6210410af54d050131ed</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>73a23af6c3fd6210410af54d050131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>77a23af6c3fd6210410af54d050131ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>bfa23af6c3fd6210410af54d050131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=77a23af6c3fd6210410af54d050131ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>77a23af6c3fd6210410af54d050131ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>3fa23af6c3fd6210410af54d050131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>77a23af6c3fd6210410af54d050131ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>b7a23af6c3fd6210410af54d050131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>77a23af6c3fd6210410af54d050131ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>7ba23af6c3fd6210410af54d050131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=77a23af6c3fd6210410af54d050131ed"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77a23af6c3fd6210410af54d050131ed"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>dce720a4-3a04-4905-8de6-24505acba906</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>9156f63ec3fd6210410af54d0501318a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>81101186-a7b0-4f38-9449-f15f38cd9415</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9156f63ec3fd6210410af54d0501318a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9156f63ec3fd6210410af54d0501318a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>9d56f63ec3fd6210410af54d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9156f63ec3fd6210410af54d0501318a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>d956f63ec3fd6210410af54d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9156f63ec3fd6210410af54d0501318a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9156f63ec3fd6210410af54d0501318a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>5956f63ec3fd6210410af54d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9156f63ec3fd6210410af54d0501318a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>d156f63ec3fd6210410af54d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9156f63ec3fd6210410af54d0501318a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>9556f63ec3fd6210410af54d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9156f63ec3fd6210410af54d0501318a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9156f63ec3fd6210410af54d0501318a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>57e72a09-4b99-4452-8eb5-35a2d9303a6a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>aba23af6c3fd6210410af54d050131e2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>522f4cd0-c5d3-49cb-b457-c9f2a69b4397</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aba23af6c3fd6210410af54d050131e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aba23af6c3fd6210410af54d050131e2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:56:01</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aba23af6c3fd6210410af54d050131e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aba23af6c3fd6210410af54d050131e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>efa23af6c3fd6210410af54d050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>aba23af6c3fd6210410af54d050131e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>a3a23af6c3fd6210410af54d050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aba23af6c3fd6210410af54d050131e2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aba23af6c3fd6210410af54d050131e2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>afa23af6c3fd6210410af54d050131c2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>268c6034-710f-4495-ba6a-c173d6839ca4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=afa23af6c3fd6210410af54d050131c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afa23af6c3fd6210410af54d050131c2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>2fa23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afa23af6c3fd6210410af54d050131c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>67a23af6c3fd6210410af54d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afa23af6c3fd6210410af54d050131c2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>a3a23af6c3fd6210410af54d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afa23af6c3fd6210410af54d050131c2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>efa23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=afa23af6c3fd6210410af54d050131c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e7a23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.f0e2a236c3bd6210410af54d050131b4}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>eba23af6c3fd6210410af54d050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>afa23af6c3fd6210410af54d050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>63a23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{dfc6441f-ce7a-42e8-b7f9-0adca9a00d7d.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>afa23af6c3fd6210410af54d050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>aba23af6c3fd6210410af54d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=afa23af6c3fd6210410af54d050131c2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=afa23af6c3fd6210410af54d050131c2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>57e72a09-4b99-4452-8eb5-35a2d9303a6a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>d156f63ec3fd6210410af54d05013179</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>88589ea6-a368-461f-94d5-23edcbd61f18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d156f63ec3fd6210410af54d05013179"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d156f63ec3fd6210410af54d05013179</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>1956f63ec3fd6210410af54d0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d156f63ec3fd6210410af54d05013179</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>dd56f63ec3fd6210410af54d0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d156f63ec3fd6210410af54d05013179"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d156f63ec3fd6210410af54d05013179</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>9556f63ec3fd6210410af54d0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d156f63ec3fd6210410af54d05013179</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>1d56f63ec3fd6210410af54d0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d156f63ec3fd6210410af54d05013179</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:59:47</sys_created_on>
+        <sys_id>d156f63ec3fd6210410af54d0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d156f63ec3fd6210410af54d05013179"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d156f63ec3fd6210410af54d05013179"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e7a23af6c3fd6210410af54d050131b9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>dfc6441f-ce7a-42e8-b7f9-0adca9a00d7d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e7a23af6c3fd6210410af54d050131b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e7a23af6c3fd6210410af54d050131b9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>a7a23af6c3fd6210410af54d050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>state=2^assignment_group={"display":"Professores UNIT","value":"f0e2a236c3bd6210410af54d050131b4","sys_id":"f0e2a236c3bd6210410af54d050131b4"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e7a23af6c3fd6210410af54d050131b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e7a23af6c3fd6210410af54d050131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e7a23af6c3fd6210410af54d050131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>6ba23af6c3fd6210410af54d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e7a23af6c3fd6210410af54d050131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>63a23af6c3fd6210410af54d050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e7a23af6c3fd6210410af54d050131b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e7a23af6c3fd6210410af54d050131b9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>efa23af6c3fd6210410af54d050131d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>8f5d41d8-d8eb-47b6-8682-b77d2e0f88e7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efa23af6c3fd6210410af54d050131d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa23af6c3fd6210410af54d050131d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>2ba23af6c3fd6210410af54d050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>approval=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efa23af6c3fd6210410af54d050131d6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>eba23af6c3fd6210410af54d050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>x_1770247_unit_solicitacao_de_servicos_academicos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=efa23af6c3fd6210410af54d050131d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>efa23af6c3fd6210410af54d050131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>a7a23af6c3fd6210410af54d050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>efa23af6c3fd6210410af54d050131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>23a23af6c3fd6210410af54d050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>efa23af6c3fd6210410af54d050131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e3a23af6c3fd6210410af54d050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efa23af6c3fd6210410af54d050131d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=efa23af6c3fd6210410af54d050131d6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f6869efec33d6210410af54d05013183"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f6869efec33d6210410af54d05013183^sys_idNOT IN27a23af6c3fd6210410af54d050131e7,3ba23af6c3fd6210410af54d050131ef,6fa23af6c3fd6210410af54d050131e4,e7a23af6c3fd6210410af54d050131d9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63a23af6c3fd6210410af54d050131e7</block>
+        <comment/>
+        <connected_to>57e72a09-4b99-4452-8eb5-35a2d9303a6a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131e7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>dce720a4-3a04-4905-8de6-24505acba906</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=27a23af6c3fd6210410af54d050131e7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27a23af6c3fd6210410af54d050131e7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27a23af6c3fd6210410af54d050131e7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">77a23af6c3fd6210410af54d050131ef</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>dce720a4-3a04-4905-8de6-24505acba906</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>3ba23af6c3fd6210410af54d050131ef</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>b1ec95ea-4df9-4849-a816-2e8ef0ef5cc3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ba23af6c3fd6210410af54d050131ef"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ba23af6c3fd6210410af54d050131ef"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ba23af6c3fd6210410af54d050131ef"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aba23af6c3fd6210410af54d050131e4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>57e72a09-4b99-4452-8eb5-35a2d9303a6a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>6fa23af6c3fd6210410af54d050131e4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>bd3d6c78-a3d5-4200-b4b4-448ea494d46b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6fa23af6c3fd6210410af54d050131e4"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6fa23af6c3fd6210410af54d050131e4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6fa23af6c3fd6210410af54d050131e4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">efa23af6c3fd6210410af54d050131d8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Automação matrícula">f6869efec33d6210410af54d05013183</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e7a23af6c3fd6210410af54d050131d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:59:47</sys_updated_on>
+        <ui_id>57e72a09-4b99-4452-8eb5-35a2d9303a6a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e7a23af6c3fd6210410af54d050131d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e7a23af6c3fd6210410af54d050131d9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>6ba23af6c3fd6210410af54d050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <value>se for aprovado</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e7a23af6c3fd6210410af54d050131d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e7a23af6c3fd6210410af54d050131d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>e7a23af6c3fd6210410af54d050131dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:56:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{268c6034-710f-4495-ba6a-c173d6839ca4.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>e7a23af6c3fd6210410af54d050131d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>27a23af6c3fd6210410af54d050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e7a23af6c3fd6210410af54d050131d9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e7a23af6c3fd6210410af54d050131d9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f6869efec33d6210410af54d05013183"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f6869efec33d6210410af54d05013183"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183^sys_idNOT IN67a23af6c3fd6210410af54d050131af,aba23af6c3fd6210410af54d050131ac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:50</sys_created_on>
+        <sys_id>67a23af6c3fd6210410af54d050131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 22:43:49</sys_created_on>
+        <sys_id>aba23af6c3fd6210410af54d050131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1770247_unit">cb60ecacc3752210410af54d050131d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">cb60ecacc3752210410af54d050131d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 22:43:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f6869efec33d6210410af54d05013183"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f6869efec33d6210410af54d05013183"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f6869efec33d6210410af54d05013183"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f6869efec33d6210410af54d05013183"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f6869efec33d6210410af54d05013183"/>
+</record_update>

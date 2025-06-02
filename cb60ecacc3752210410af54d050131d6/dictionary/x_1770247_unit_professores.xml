@@ -4,7 +4,7 @@
         <element label="Data de nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
         <element label="Data de contratação" max_length="40" name="data_de_contratacao" type="glide_date"/>
         <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
-        <element label="Número de Matrícula" max_length="40" name="numero_de_matricula" type="string"/>
+        <element default="100" label="Número de Matrícula" max_length="40" name="numero_de_matricula" type="string"/>
         <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
     </element>
 </database>
